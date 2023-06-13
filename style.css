@@ -24,12 +24,14 @@ header {
 .nav-links li {
   display: inline-block;
   margin-left: 20px;
+  font-weight: bold;
 }
 
 .nav-links a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
 }
 
 /* Hero section styles */
@@ -60,6 +62,7 @@ header {
 .product {
   text-align: center;
   color: #ffffff; /* Set text color to white */
+  font-weight: bold;
 }
 
 .product img {
@@ -72,15 +75,17 @@ header {
 .product h3 {
   margin-top: 10px;
   color: #ffffff; /* Set text color to white */
+  font-weight: bold;
 }
 
 .product p {
   margin-bottom: 10px;
   color: #ffffff; /* Set text color to white */
+  font-weight: bold;
 }
 
 .add-to-cart {
-  background-color: #000;
+  background: linear-gradient(#808080, #fff);
   color: #ffd700;
   border: none;
   padding: 10px 20px;
@@ -88,8 +93,8 @@ header {
   border-radius: 20px;
   opacity: 0.8;
   transition: opacity 0.3s ease;
+  font-weight: bold;
 }
-
 .add-to-cart:hover {
   opacity: 1;
 }
