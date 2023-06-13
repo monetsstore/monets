@@ -89,7 +89,7 @@ header {
 }
 
 .add-to-cart {
-  background: #000000
+  background: linear-gradient(90deg, rgba(173,163,0,1) 0%, rgba(0,0,0,0.0214679621848739) 48%, rgba(144,144,1,1) 100%);
   color: #ffd700;
   border: 2px solid linear-gradient(90deg, rgba(173, 163, 0, 1) 0%, rgba(0, 0, 0, 1) 48%, rgba(144, 144, 1, 1) 100%);
   padding: 10px 20px;
