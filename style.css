@@ -1,89 +1,79 @@
-/* Reset some default styles */
-* {
+/* General styles */
+body {
+  background-color: #000;
+  color: #fff;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
   font-family: Arial, sans-serif;
-  background-color: #111;
-
+  text-align: center;
 }
 
-/* Header styles */
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h1.logo {
+  font-size: 36px;
+  color: #ffd700;
+}
+
+h2.header-title {
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
 header {
-  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
-.logo h1 {
-  color: #ffd700;
-  font-size: 24px;
+.header-right {
+  text-align: left;
 }
 
-.nav-links li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-/* Hero section styles */
-.hero {
-  background-color: #000;
-  color: #fff;
-  padding: 100px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 18px;
-}
-
-/* Product preview section styles */
-.product-preview {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-}
-
-.product {
-  text-align: center;
-}
-
-.product img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.product h3 {
-  margin-top: 10px;
-}
-
-.product p {
-  margin-bottom: 10px;
+.header-subtitle, .header-price {
+  color: #ddd;
+  font-weight: bold;
 }
 
 .add-to-cart {
-  background-color: #000;
+  background-color: #ddd;
   color: #ffd700;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 4px;
+  font-weight: bold;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
@@ -92,20 +82,13 @@ header {
   opacity: 1;
 }
 
-/* Contact section styles */
-.contact {
-  background-color: #333;
+section.contact {
+  background-color: #f0f0f0;
   padding: 40px 20px;
   text-align: center;
 }
 
-.contact h2 {
-  color: #ffd700;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.contact form {
+section.contact form {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -114,84 +97,41 @@ header {
   text-align: left;
 }
 
-.contact label {
+section.contact label {
   display: block;
-  color: #ffd700;
-  font-weight: bold;
 }
 
-.contact input,
-.contact textarea {
+section.contact input,
+section.contact textarea {
   width: 100%;
   padding: 10px;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
 }
 
-.contact textarea {
-  resize: vertical;
-}
-
-.contact button {
-  background-color: #ffd700;
-  color: #000;
+section.contact button {
+  background-color: #ddd;
+  color: #ffd700;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 4px;
   font-weight: bold;
-  font-size: 16px;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
 
-.contact button:hover {
+section.contact button:hover {
   opacity: 1;
 }
 
-/* Animation */
-@keyframes slideIn {
-  0% {
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.contact form,
-.contact button {
-  animation: slideIn 0.5s ease forwards;
-}
-
-
-/* Instagram section styles */
-.instagram {
-  background-color: #000;
-  color: #fff;
+section.instagram {
+  background-color: #f0f0f0;
   padding: 40px 20px;
   text-align: center;
+  margin-top: 20px;
 }
 
-.instagram h2 {
-  margin-bottom: 20px;
-}
-
-.instagram a {
-  background-color: #000;
-  color: #ffd700;
-  border: none;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 20px;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-
-.instagram a:hover {
-  opacity: 1;
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
