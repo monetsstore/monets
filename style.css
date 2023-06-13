@@ -23,7 +23,7 @@ header {
 
 .nav-links li {
   display: inline-block;
-  margin-left: 20px;
+  margin-top: 10px;
   font-weight: bold;
 }
 
@@ -57,14 +57,14 @@ header {
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  margin-top: 1px;
+  margin-top: 10px;
 }
 
 .product {
   text-align: center;
   color: #ffffff; /* Set text color to white */
   font-weight: bold;
-  margin-top: 1px;
+  margin-top: 10px;
 }
 
 .product img {
@@ -78,18 +78,18 @@ header {
   margin-top: 10px;
   color: #ffffff; /* Set text color to white */
   font-weight: bold;
-  margin-top: 1px;
+  margin-top: 10px;
 }
 
 .product p {
   margin-bottom: 10px;
   color: #ffffff; /* Set text color to white */
   font-weight: bold;
-  margin-top: 1px;
+  margin-top: 10px;
 }
 
 .add-to-cart {
-  background: black
+  background: #000000
   color: linear-gradient(90deg, rgba(173, 163, 0, 1) 0%, rgba(0, 0, 0, 1) 48%, rgba(144, 144, 1, 1) 100%);
   border: 2px solid #ffd700;
   padding: 10px 20px;
