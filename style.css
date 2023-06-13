@@ -8,66 +8,27 @@ body {
   text-align: center;
 }
 
-h1, h2 {
-  margin: 0;
-  padding: 0;
+h1 {
+  margin-top: 30px;
+  font-size: 32px;
+  color: #fff;
 }
 
-h1.logo {
-  font-size: 36px;
-  color: #ffd700;
-}
-
-h2.header-title {
+h2 {
   font-size: 24px;
-  color: #ffd700;
+  color: #fff;
 }
 
-.section-title {
-  font-size: 24px;
-  color: #ffd700;
-  font-weight: bold;
+.product {
+  margin-top: 40px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  opacity: 0.8;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.header-right {
-  text-align: left;
-}
-
-.header-subtitle, .header-price {
-  color: #ddd;
-  font-weight: bold;
+.coin, .price {
+  color: #fff;
 }
 
 .add-to-cart {
-  background-color: #ddd;
+  background-color: #808080;
   color: #ffd700;
   border: none;
   padding: 10px 20px;
@@ -80,12 +41,33 @@ header {
 
 .add-to-cart:hover {
   opacity: 1;
+  background-color: #fff;
+  color: #808080;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 section.contact {
   background-color: #f0f0f0;
   padding: 40px 20px;
   text-align: center;
+}
+
+section.contact h2.section-title {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 section.contact form {
@@ -108,7 +90,7 @@ section.contact textarea {
 }
 
 section.contact button {
-  background-color: #ddd;
+  background-color: #808080;
   color: #ffd700;
   border: none;
   padding: 10px 20px;
@@ -121,6 +103,8 @@ section.contact button {
 
 section.contact button:hover {
   opacity: 1;
+  background-color: #fff;
+  color: #808080;
 }
 
 section.instagram {
@@ -128,6 +112,12 @@ section.instagram {
   padding: 40px 20px;
   text-align: center;
   margin-top: 20px;
+}
+
+section.instagram h2.section-title {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 footer {
