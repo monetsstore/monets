@@ -1,3 +1,4 @@
+/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +7,12 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #000;
 }
 
+/* Header styles */
 header {
-  background-color: #1c1c1c;
+  background-color: #000;
   padding: 20px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo h1 {
@@ -37,88 +31,18 @@ nav {
   font-size: 16px;
 }
 
+/* Hero section styles */
 .hero {
-  background-image: url('background-image.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-content {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 20px;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 48px;
-  color: #fff;
+  font-size: 36px;
   margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 30px;
-}
-
-.cta-button,
-button,
-.buy-now-button {
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffd700;
-  padding: 10px 20px;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 30px;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover,
-button:hover,
-.buy-now-button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.featured-product {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px auto;
-  max-width: 800px;
-  text-align: center;
-}
-
-.product-info {
-  padding: 0 40px;
-}
-
-.product-info h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.product-info h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.product-info p {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #1c1c1c;
-  padding: 20px;
-  text-align: left;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
+  font-size:
