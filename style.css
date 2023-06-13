@@ -59,7 +59,7 @@ header {
 
 .product {
   text-align: center;
-  color: #fff; /* Set text color to white */
+  color: #ffffff; /* Set text color to white */
 }
 
 .product img {
@@ -71,12 +71,12 @@ header {
 
 .product h3 {
   margin-top: 10px;
-  color: #fff; /* Set text color to white */
+  color: #ffffff; /* Set text color to white */
 }
 
 .product p {
   margin-bottom: 10px;
-  color: #fff; /* Set text color to white */
+  color: #ffffff; /* Set text color to white */
 }
 
 .add-to-cart {
