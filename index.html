@@ -5,88 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Monets Store</title>
-  <style>
-    body {
-      background-color: #000;
-      color: #ffd700;
-      font-family: Arial, sans-serif;
-    }
-
-    h1, h2, p {
-      margin: 0;
-      padding: 0;
-    }
-
-    h1 {
-      font-size: 32px;
-      padding: 20px;
-      background-color: #ffd700;
-      color: #000;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin: 20px 0;
-      color: #ffd700;
-    }
-
-    p {
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: #ffd700;
-      text-decoration: none;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .product {
-      background-color: #000;
-      color: #ffd700;
-      padding: 20px;
-      margin-bottom: 20px;
-    }
-
-    .product p {
-      margin-bottom: 10px;
-    }
-
-    .product button {
-      background-color: #ffd700;
-      color: #000;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    footer {
-      background-color: #ffd700;
-      color: #000;
-      text-align: center;
-      padding: 10px 0;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Welcome to Monets Store</h1>
-  <p>We offer a wide selection of coins for sale.</p>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Monets Store</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h2>Check out our Instagram</h2>
-  <p><a href="https://www.instagram.com/your_instagram_account/">Instagram</a></p>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Monets Store</h1>
+      <p>We offer a wide selection of coins for sale.</p>
+      <a href="https://www.instagram.com/your_instagram_account/" class="cta-button">Check out our Instagram</a>
+    </div>
+  </section>
 
-  <h2>Featured Product</h2>
-  <div class="product">
-    <img src="coin1.png" alt="Coin 1">
-    <p>Price: 10 Euro</p>
-    <button>Add to Cart</button>
-  </div>
+  <section class="featured-product">
+    <div class="product-image">
+      <img src="coin1.png" alt="Coin 1">
+    </div>
+    <div class="product-info">
+      <h2>Featured Product</h2>
+      <p>Price: 10 Euro</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
 
   <footer>
     <p>© 2023 Monets - store. All rights reserved.</p>
