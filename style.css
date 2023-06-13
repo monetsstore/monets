@@ -16,7 +16,7 @@ header {
 }
 
 .logo h1 {
-  color: #fff;
+  color: #ffd700;
   font-size: 24px;
 }
 
@@ -45,9 +45,10 @@ header {
 }
 
 .hero p {
-  font-size:
+  font-size: 18px;
+}
 
-    /* Product preview section styles */
+/* Product preview section styles */
 .product-preview {
   display: flex;
   justify-content: center;
@@ -57,18 +58,36 @@ header {
 
 .product {
   text-align: center;
-  margin: 0 20px;
 }
 
 .product img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .product h3 {
   margin-top: 10px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  background-color: #000;
+  color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.add-to-cart:hover {
+  opacity: 1;
 }
 
 /* Contact section styles */
@@ -101,10 +120,17 @@ header {
 
 .contact button {
   background-color: #000;
-  color: #fff;
+  color: #ffd700;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.contact button:hover {
+  opacity: 1;
 }
 
 /* Instagram section styles */
