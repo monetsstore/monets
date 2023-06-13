@@ -94,28 +94,30 @@ header {
 .contact {
   background-color: #f0f0f0;
   padding: 40px 20px;
+  text-align: center;
 }
 
 .contact h2 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 .contact form {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
   max-width: 400px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .contact label {
-  margin-bottom: 10px;
+  display: block;
 }
 
 .contact input,
 .contact textarea {
+  width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
 }
 
 .contact button {
@@ -141,15 +143,21 @@ header {
   text-align: center;
 }
 
-.instagram a {
-  color: #ffd700;
-  text-decoration: none;
+.instagram h2 {
+  margin-bottom: 20px;
 }
 
-/* Footer styles */
-footer {
+.instagram a {
   background-color: #000;
-  color: #fff;
-  padding: 20px;
-  text-align: left;
+  color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.instagram a:hover {
+  opacity: 1;
 }
