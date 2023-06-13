@@ -11,24 +11,18 @@ body {
 h1 {
   margin-top: 30px;
   font-size: 32px;
-  color: #fff;
 }
 
 h2 {
   font-size: 24px;
-  color: #fff;
 }
 
 .product {
   margin-top: 40px;
 }
 
-.coin, .price {
-  color: #fff;
-}
-
 .add-to-cart {
-  background-color: #808080;
+  background-color: #000;
   color: #ffd700;
   border: none;
   padding: 10px 20px;
@@ -41,21 +35,6 @@ h2 {
 
 .add-to-cart:hover {
   opacity: 1;
-  background-color: #fff;
-  color: #808080;
-}
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
-}
-
-nav a {
-  color: #ffd700;
-  text-decoration: none;
-  margin-left: 10px;
-  font-weight: bold;
 }
 
 section.contact {
@@ -64,10 +43,8 @@ section.contact {
   text-align: center;
 }
 
-section.contact h2.section-title {
-  color: #ffd700;
-  font-weight: bold;
-  font-size: 24px;
+section.contact h2 {
+  margin-bottom: 20px;
 }
 
 section.contact form {
@@ -90,7 +67,7 @@ section.contact textarea {
 }
 
 section.contact button {
-  background-color: #808080;
+  background-color: #000;
   color: #ffd700;
   border: none;
   padding: 10px 20px;
@@ -103,25 +80,3 @@ section.contact button {
 
 section.contact button:hover {
   opacity: 1;
-  background-color: #fff;
-  color: #808080;
-}
-
-section.instagram {
-  background-color: #f0f0f0;
-  padding: 40px 20px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-section.instagram h2.section-title {
-  color: #ffd700;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
