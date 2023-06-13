@@ -89,9 +89,9 @@ header {
 }
 
 .add-to-cart {
-  background: linear-gradient(#808080, #fffffff);
-  color: #ffd700;
-  border: none;
+  background: black
+  color: linear-gradient(90deg, rgba(173, 163, 0, 1) 0%, rgba(0, 0, 0, 1) 48%, rgba(144, 144, 1, 1) 100%);
+  border: 2px solid #ffd700;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 20px;
