@@ -64,7 +64,8 @@ nav {
 }
 
 .cta-button,
-button {
+button,
+.buy-now-button {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffd700;
@@ -78,7 +79,8 @@ button {
 }
 
 .cta-button:hover,
-button:hover {
+button:hover,
+.buy-now-button:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -88,20 +90,21 @@ button:hover {
   align-items: center;
   margin: 40px auto;
   max-width: 800px;
-}
-
-.product-image {
-  flex: 1;
+  text-align: center;
 }
 
 .product-info {
-  flex: 1;
   padding: 0 40px;
 }
 
 .product-info h2 {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.product-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .product-info p {
