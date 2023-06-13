@@ -79,3 +79,43 @@ button {
 
 .cta-button:hover,
 button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.featured-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.product-image {
+  flex: 1;
+}
+
+.product-info {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.product-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
